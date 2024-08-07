@@ -3,7 +3,6 @@ import { MdDeleteOutline,MdOutlineEdit } from "react-icons/md";
 import { BsCheckCircleFill,BsCircle   } from "react-icons/bs";
 import context from '../components/Context';
 
-
 const TodoList = ()=>{
   const {todos,setTodos} = useContext(context);
   return (
