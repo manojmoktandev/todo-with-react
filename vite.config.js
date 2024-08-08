@@ -8,4 +8,5 @@ export default defineConfig({
     outDir: 'dist',
     target: 'esnext',
   },
+  base: '/todo-with-react/'
 })
